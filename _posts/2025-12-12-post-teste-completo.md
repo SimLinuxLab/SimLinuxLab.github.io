@@ -71,6 +71,7 @@ Este post serve como **demonstração prática** de tudo que pode ser usado no t
 ```bash
 # Atualizar sistema no Ubuntu
 sudo apt update && sudo apt upgrade -y
+```
 
 
 
