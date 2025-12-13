@@ -1,10 +1,14 @@
 ---
 layout: page
-title: Tutoriais
+title: "Tutoriais"
 icon: fas fa-book
 order: 5
 ---
 
-# Bem-vindo à seção de Tutoriais
+# Tutoriais
 
-Aqui você encontra tutoriais práticos sobre Git, Docker, Linux e mais.
+Escolha um dos guias abaixo:
+
+- [Git Básico](/tutoriais/git-basico/)
+- [Firewall UFW](/tutoriais/firewall-ufw/)
+- [Docker Início](/tutoriais/docker-inicio/)
