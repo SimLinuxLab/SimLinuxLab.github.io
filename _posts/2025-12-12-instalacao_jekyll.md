@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title: "Instalação do Jekyll + Chirpy pelo GitHub (100% Web)"
-permalink: /instalacao-chirpy-github/
-toc: true
+date: 2025-12-12 12:00:00 +0000
+categories: [inicial]
+tags: [linux, git, devops]
 ---
 
 # 🧩 INSTALAÇÃO DO JEKYLL + CHIRPY 100% PELO GITHUB (SEM TERMINAL)
