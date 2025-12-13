@@ -86,3 +86,24 @@ sudo apt update && sudo apt upgrade -y
 <language>
 content
 ```
+
+
+#### HTML:
+```markdown
+```html
+<div class="caixa">
+  <p>Exemplo em HTML</p>
+</div>
+
+
+#### Python:
+```markdown
+```python
+def saudacao():
+    print("Olá, mundo!")
+
+
+
+# Atualizar sistema no Ubuntu
+    ```bash
+sudo apt update && sudo apt upgrade -y
