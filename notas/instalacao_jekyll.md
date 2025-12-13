@@ -1,3 +1,10 @@
+---
+layout: page
+title: "Instalação do Jekyll + Chirpy pelo GitHub (100% Web)"
+permalink: /instalacao-chirpy-github/
+toc: true
+---
+
 # 🧩 INSTALAÇÃO DO JEKYLL + CHIRPY 100% PELO GITHUB (SEM TERMINAL)
 
 PASSO A PASSO PARA CRIAR UM SITE USANDO O JEKYLL E O TEMA CHIRPY, USANDO APENAS O GITHUB.COM — SEM INSTALAR RUBY, NODE OU RODAR LOCALMENTE.
@@ -32,66 +39,3 @@ theme_mode: dark
 
 github:
   username: SimLinuxLab
-```
-
-Opcional: edite também o campo `social`, `email`, `avatar`, e adicione Google Analytics se quiser.
-
-## 📝 ETAPA 3 — PUBLICAR O PRIMEIRO POST
-
-1. Vá até a pasta `_posts/`  
-2. Crie um novo arquivo com o padrão:  
-   `ANO-MES-DIA-nome.md`  
-   Exemplo: `2025-12-13-bem-vindo.md`  
-3. Conteúdo de exemplo:
-
-```markdown
----
-layout: post
-title: "Bem-vindo ao SimLinuxLab"
-date: 2025-12-13 12:00:00 +0000
-categories: [inicial]
-tags: [linux, jekyll]
----
-
-Este é o primeiro post do SimLinuxLab.  
-Aqui você encontrará tutoriais, anotações e experimentos práticos em Linux, Git, automações e servidores.
-```
-
-4. Dê commit nas alterações diretamente pelo GitHub Web ou usando o [github.dev](https://github.dev)
-
-## 🚀 ETAPA 4 — ACESSAR O SITE PUBLICADO
-
-Após o commit, o GitHub Pages irá automaticamente:
-- Rodar o Jekyll remotamente
-- Gerar o site
-- Publicar em:
-
-```
-https://seu-usuario.github.io
-```
-
-No seu caso:  
-[https://simlinuxlab.github.io](https://simlinuxlab.github.io)
-
-Você também pode acessar diretamente o post:  
-[https://simlinuxlab.github.io/posts/bem-vindo](https://simlinuxlab.github.io/posts/bem-vindo)
-
-## ✅ RESULTADO FINAL
-
-- 🔧 Nenhuma instalação local de Ruby, Jekyll ou Node  
-- 🎨 Tema Chirpy ativado com modo escuro por padrão  
-- 📝 Postagens escritas em Markdown na pasta `_posts`  
-- 🌍 Site gerado via GitHub Pages (gratuito e automático)
-
-## 💡 DICA EXTRA
-
-Se quiser editar os arquivos com mais conforto, use:  
-[https://github.dev](https://github.dev)  
-É o VS Code no navegador — basta pressionar a tecla `.` quando estiver em um repositório no GitHub.
-
----
-
-Feito por: Renato  
-Data: Dezembro 2025  
-Tema: Chirpy Starter – GitHub Pages  
-Projeto: [https://github.com/SimLinuxLab/SimLinuxLab.github.io](https://github.com/SimLinuxLab/SimLinuxLab.github.io)
