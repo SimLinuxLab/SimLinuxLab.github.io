@@ -10,5 +10,5 @@ order: 5
 Escolha um dos guias abaixo:
 
 - [Git Básico](/tutoriais/git-basico/)
-- [Firewall UFW](/tutoriais/firewall-ufw/)
-- [Docker Início](/tutoriais/docker-inicio/)
+- [Firewall UFW]
+- [Docker Início]
