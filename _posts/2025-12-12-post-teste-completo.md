@@ -64,19 +64,10 @@ Este post serve como **demonstração prática** de tudo que pode ser usado no t
 
 ## 💻 BLOCO DE CÓDIGO COM BOTÃO DE COPIAR
 
-
-
-
-
 ```bash
 # Atualizar sistema no Ubuntu
 sudo apt update && sudo apt upgrade -y
 ```
-
-
-
-
-
 
 
 ``Use `code` in your Markdown file.``
@@ -101,7 +92,6 @@ content
 ```python
 def saudacao():
     print("Olá, mundo!")
-
 
 
 # Atualizar sistema no Ubuntu
