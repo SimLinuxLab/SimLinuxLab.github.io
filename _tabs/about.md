@@ -190,6 +190,16 @@ Elimine o trabalho manual repetitivo. Implementamos ferramentas que garantem que
 * **Synapse (Matrix):** Implementação de comunicação interna (chat) criptografada de ponta a ponta e auto-hospedada.
 * **Syncthing:** Sincronização P2P (Peer-to-Peer) em tempo real, eliminando a dependência de serviços de nuvem de terceiros.
 
+### 4 Defesa de Ponto Final e OPSEC
+
+A proteção mais crítica está no dispositivo do usuário e no perímetro da rede. Implementação de soluções que elevam a segurança do acesso e das máquinas clientes.
+
+* **Estratégias Air-Gapped:** Consultoria e implementação de soluções de rede fisicamente isoladas para máxima segurança de dados críticos.
+* **Autenticação Avançada (MFA/FIDO2):** Implementação de Multi-Fator de Autenticação (MFA) e chaves de segurança físicas (YubiKey, FIDO2) como padrão de acesso.
+* **Gerenciamento de Segredos:** Implementação de gerenciadores de senhas seguros (*vaults*) corporativos e política de rotação de credenciais.
+* **Soluções EDR/Antivírus:** Avaliação e configuração de soluções de Endpoint Detection and Response (EDR) e Antivírus para proteção ativa e visibilidade.
+* **Hardening de Clientes:** Configuração de sistemas operacionais (Windows, macOS, Linux) dos usuários para reduzir a superfície de ataque.
+
 ### Segurança Ofensiva (Testes)
 
 Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encontre. Realizamos avaliações rigorosas da sua postura de segurança, focando em relatórios práticos.
