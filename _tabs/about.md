@@ -283,7 +283,7 @@ Foco em ambientes Linux estáveis, seguros, otimizados e construídos para alta 
 
 ## Chave PGP Pública (Comunicação Criptografada)
 
-Para garantir a privacidade das nossas comunicações e a integridade de documentos, encorajo o uso de criptografia PGP/GPG.
+Para assegurar a confidencialidade e a integridade de todas as comunicações e documentos trocados, a criptografia PGP/GPG é altamente recomendada.
 
 O meu *fingerprint* e chave pública estão disponíveis abaixo para importação:
 
