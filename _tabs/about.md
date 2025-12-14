@@ -171,7 +171,7 @@ Eu transformo infraestruturas vulneráveis e caóticas em sistemas baseados em *
 
 ---
 
-## 🛠️ Nossos Pilares de Serviço
+## Pilares de Serviço
 
 Organizar a infraestrutura não é apenas sobre a tecnologia, é sobre garantir a **previsibilidade**. Nossos serviços são divididos em três áreas de foco interligadas, garantindo estabilidade, segurança e escalabilidade contínua para o seu negócio.
 
@@ -220,11 +220,11 @@ Os valores finais são definidos após a avaliação do ambiente, mas aqui estã
 
 ---
 
-## 💰 Opções de Contratação (Estimativas em R$)
+## Opções de Contratação (Estimativas em R$)
 
 Os valores finais são definidos após a avaliação do ambiente. Estas faixas de preço servem como orientação inicial no mercado brasileiro, refletindo a expertise em DevSecOps.
 
-### 🛠️ Projetos e Implementação
+### Projetos e Implementação
 
 > **Projeto Único (Infra/Automação)**
 > Instalação, Hardening e Automação de Backups.
@@ -241,7 +241,7 @@ Os valores finais são definidos após a avaliação do ambiente. Estas faixas d
 > **R$ 8.000 – R$ 18.000+**
 {: .prompt-danger }
 
-### 🧭 Suporte e Consultoria
+### Suporte e Consultoria
 
 > **Consultoria / Hora (Spot)**
 > Estratégia, Migração, Suporte Pontual de Especialista.
