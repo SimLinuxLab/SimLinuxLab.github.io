@@ -171,9 +171,9 @@ Eu transformo infraestruturas vulneráveis e caóticas em sistemas baseados em *
 
 ---
 
-## Nossos Pilares de Serviço
+## 🛠️ Nossos Pilares de Serviço
 
-Organizo a sua infraestrutura em três áreas de foco, garantindo estabilidade e escalabilidade.
+Organizar a infraestrutura não é apenas sobre a tecnologia, é sobre garantir a **previsibilidade**. Nossos serviços são divididos em três áreas de foco interligadas, garantindo estabilidade, segurança e escalabilidade contínua para o seu negócio.
 
 ### Infraestrutura e Hardening
 
@@ -195,11 +195,13 @@ Elimine o trabalho manual repetitivo. Implementamos ferramentas que garantem que
 
 ### Segurança Ofensiva (Testes)
 
-Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encontre. Realizamos avaliações rigorosas da sua postura de segurança.
+Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encontre. Realizamos avaliações rigorosas da sua postura de segurança, focando em relatórios práticos.
 
-* **Varredura de Vulnerabilidades:** Identificação de falhas conhecidas na sua infraestrutura.
-* **Auditorias de Segurança:** Revisão de configurações de Hardening e conformidade.
-* **Testes de Penetração (Pentest):** Exploração controlada de vulnerabilidades (mediante autorização formal).
+* **Varredura de Vulnerabilidades:** Uso de ferramentas padrão (Ex: Nessus/OpenVAS) para identificação de falhas conhecidas na infraestrutura e nos softwares.
+* **Auditorias de Segurança e Hardening:** Revisão de configurações de sistemas, *firewalls* e conformidade com *benchmarks* de segurança (CIS, NIST).
+* **Testes de Penetração (Pentest):** Exploração controlada de vulnerabilidades, incluindo testes em rede e aplicações web (mediante autorização formal).
+* **OSINT (Open Source Intelligence):** Coleta e análise de informações públicas para identificar vetores de ataque externos e fugas de dados (Data Leaks).
+* **Relatórios Acionáveis:** Entregáveis focados em **Mitigação** e priorização de correções, não apenas na lista de falhas.
 
 ---
 
@@ -218,48 +220,100 @@ Os valores finais são definidos após a avaliação do ambiente, mas aqui estã
 
 ---
 
+## 💰 Opções de Contratação (Estimativas em R$)
+
+Os valores finais são definidos após a avaliação do ambiente. Estas faixas de preço servem como orientação inicial no mercado brasileiro, refletindo a expertise em DevSecOps.
+
+### 🛠️ Projetos e Implementação
+
+> **Projeto Único (Infra/Automação)**
+> Instalação, Hardening e Automação de Backups.
+> **R$ 6.000 – R$ 15.000** por projeto
+{: .prompt-info }
+
+> **Avaliação de Risco (Básico)**
+> Varredura de vulnerabilidades e Relatório de Hardening (Escopo Limitado).
+> **R$ 3.500 – R$ 7.500**
+{: .prompt-warning }
+
+> **Testes de Penetração (Pentest)**
+> Avaliação detalhada, exploração controlada e Relatório Tático.
+> **R$ 8.000 – R$ 18.000+**
+{: .prompt-danger }
+
+### 🧭 Suporte e Consultoria
+
+> **Consultoria / Hora (Spot)**
+> Estratégia, Migração, Suporte Pontual de Especialista.
+> **R$ 300 – R$ 600 / hora**
+{: .prompt-tip }
+
+> **Retainer Mensal (Suporte Contínuo)**
+> Monitoramento Proativo e Suporte Mensal Fixo.
+> **R$ 4.000 – R$ 8.000 / mês**
+{: .prompt-success }
+
+> **Nota:** Projetos que combinam **Automação + Segurança** geralmente recebem preços mais competitivos. Contratos contínuos (Retainer) oferecem o melhor custo-benefício para estabilidade de longo prazo.
+{: .prompt-info }
+
+---
+
 ## Matriz de Competências Técnicas
 
 As seguintes tecnologias fazem parte da sua base de trabalho, e esta matriz resume o nível de atendimento que você pode esperar em cada uma.
 
 ### Automação & Configuração
 
-Otimização de fluxos de trabalho e provisionamento padronizado de máquinas.
+Otimização de fluxos de trabalho, provisionamento de recursos e gerenciamento de estado padronizado de máquinas.
 
 * **Ansible:** Implementação, Hardening de Playbooks, Gerenciamento de Segredos (SOPS).
+* **Terraform:** Provisionamento de Infraestrutura como Código (IaC) para ambientes Cloud e On-Premises.
+* **SaltStack (ou Salt):** Gerenciamento de estado rápido e escalável, ideal para ambientes de larga escala e respostas em tempo real.
 
 ### Criptografia & Privacidade
 
-Garantindo que os dados em repouso e em trânsito estejam inacessíveis a terceiros não autorizados.
+Garantindo que os dados em repouso e em trânsito estejam inacessíveis a terceiros não autorizados, com foco em gerenciamento de segredos e comunicações seguras.
 
 * **LUKS (Disk):** Design e Implementação de Estratégia de Criptografia de Disco.
-* **Synapse (Comunicação):** Implementação de servidor de comunicação segura e auto-hospedada.
+* **Synapse (Comunicação):** Implementação de servidor de comunicação segura e auto-hospedada (protocolo Matrix).
+* **HashiCorp Vault / SOPS:** Gerenciamento centralizado e criptografado de segredos, chaves de API e senhas.
+* **Let's Encrypt / Certbot:** Automação da emissão e renovação de certificados SSL/TLS para comunicações web seguras.
+* **GPG (GNU Privacy Guard):** Implementação de criptografia e assinatura de arquivos e emails para segurança ponta a ponta.
 
 ### Backup & Recuperação (DR)
 
 Soluções robustas para garantir a continuidade dos negócios após um desastre (Disaster Recovery).
 
 * **BorgBackup:** Configuração de Rotinas Deduplicadas e Autenticadas.
+* **Restic:** Implementação de backups criptografados com suporte a diversos destinos (S3, B2, etc.).
+* **Rsync:** Sincronização eficiente e incremental de dados para replicação local e remota.
 
 ### Auditoria & Monitoramento
 
-Estabelecendo transparência e rastreabilidade nas operações de sistema.
+Estabelecendo transparência, rastreabilidade e visibilidade em tempo real das operações de sistema.
 
-* **AIDE / Auditd:** Configuração de Regras, Revisão de Logs, Monitoramento de Integridade do Sistema.
+* **AIDE / Auditd:** Configuração de Regras, Revisão de Logs, Monitoramento de Integridade do Sistema (File Integrity Monitoring - FIM).
+* **Prometheus & Grafana:** Implementação de monitoramento de performance e saúde do sistema, com dashboards customizados e alertas.
+* **ELK Stack (ou Loki):** Soluções de gerenciamento e análise centralizada de logs para correlação de eventos de segurança.
+* **OSSEC/Wazuh:** Configuração de HIDS (Host-based Intrusion Detection System) para detecção de anomalias e ameaças nos servidores.
 
 ### Sistemas Operacionais
 
-Foco em ambientes Linux estáveis, otimizados e construídos para alta disponibilidade.
+Foco em ambientes Linux estáveis, seguros, otimizados e construídos para alta disponibilidade, cobrindo o ciclo completo de Hardening.
 
-* **Debian, Ubuntu, RedHat:** Instalação Endurecida (Hardening) e Otimização.
+* **Debian, Ubuntu, RedHat/CentOS:** Instalação Endurecida (Hardening), Otimização de Performance e Auditoria de Segurança.
+* **Alpine Linux:** Otimização e uso em ambientes de containers (Docker/Kubernetes) devido ao seu tamanho mínimo e foco em segurança.
+* **Kernel Customizado:** Compilação e configuração de Kernel (como uso de Grsecurity ou Patches customizados) para controle granular e reforço da segurança.
 
 ---
 
 ## Por que me Contratar?
 
-* **Comunicação Direta:** Zero jargão desnecessário. O que importa é o resultado.
-* **Foco em Autonomia:** O objetivo é transferir conhecimento. Você não fica refém do consultor.
-* **Tecnologia Comprovada:** Uso apenas ferramentas *Open Source* com foco em segurança e auditoria (OPSEC).
+* **Comunicação Direta:** Zero jargão técnico desnecessário. O que importa é o resultado e a clareza do plano de ação.
+* **Foco em Autonomia (Não em Dependência):** O objetivo principal é transferir conhecimento e documentação completa. Você nunca fica refém do consultor.
+* **Segurança na Cultura (DevSecOps):** A segurança é integrada desde o primeiro comando, não é um "extra" no final.
+* **Tecnologia Comprovada e Aberta:** Uso apenas ferramentas *Open Source* de nível empresarial (FOSS) com foco em auditoria e segurança (OPSEC), sem custos de licença ocultos.
+* **Retorno sobre o Investimento (ROI):** Redução de custos operacionais (via Automação) e redução de risco (via Hardening).
 
 **Pronto para simplificar sua TI?**
 
