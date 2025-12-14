@@ -214,8 +214,7 @@ Os valores finais são definidos após a avaliação do ambiente, mas aqui estã
 * **Consultoria / Hora:** Estratégia, Migração, Suporte (Spot). **R$ 300 – R$ 600 / hora**
 * **Retainer Mensal:** Suporte e Monitoramento Proativo Contínuo. **R$ 4.000 – R$ 8.000 / mês**
 
-> **Nota:** Projetos que combinam **Automação + Segurança** geralmente recebem preços mais competitivos. Contratos contínuos (Retainer) oferecem o melhor custo-benefício para estabilidade de longo prazo.
-{: .prompt-info }
+> **Nota:** Projetos que combinam **Automação + Segurança** geralmente recebem preços mais competitivos. Contratos contínuos (Retainer) oferecem o melhor 
 
 ---
 
@@ -278,7 +277,7 @@ Foco em ambientes Linux estáveis, seguros, otimizados e construídos para alta 
 
 **Pronto para simplificar sua TI?**
 
-0**Contato:** **ddpp@protonmail.com**
+0**Contato:** ddpp (arroba) protonmail.com
 
 ---
 
