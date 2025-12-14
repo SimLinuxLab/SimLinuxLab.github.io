@@ -168,8 +168,6 @@ Eu transformo infraestruturas vulneráveis e caóticas em sistemas baseados em *
 > **O Foco é em TI Enxuta:**
 > Implemento automação, segurança Hardening e monitoramento para que a sua operação funcione sem "apagar incêndios" diários, reduzindo o risco de falhas e ciberataques.
 
----
-
 ## Pilares de Serviço
 
 Organizar a infraestrutura não é apenas sobre a tecnologia, é sobre garantir a **previsibilidade**. Nossos serviços são divididos em três áreas de foco interligadas, garantindo estabilidade, segurança e escalabilidade contínua para o seu negócio.
@@ -202,8 +200,6 @@ Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encon
 * **OSINT (Open Source Intelligence):** Coleta e análise de informações públicas para identificar vetores de ataque externos e fugas de dados (Data Leaks).
 * **Relatórios Acionáveis:** Entregáveis focados em **Mitigação** e priorização de correções, não apenas na lista de falhas.
 
----
-
 ## Opções de Contratação (Estimativas em R$)
 
 Os valores finais são definidos após a avaliação do ambiente, mas aqui estão as faixas de preço no mercado brasileiro para orientar o investimento inicial.
@@ -215,8 +211,6 @@ Os valores finais são definidos após a avaliação do ambiente, mas aqui estã
 * **Retainer Mensal:** Suporte e Monitoramento Proativo Contínuo. **R$ 4.000 – R$ 8.000 / mês**
 
 > **Nota:** Projetos que combinam **Automação + Segurança** geralmente recebem preços mais competitivos. Contratos contínuos (Retainer) oferecem o melhor 
-
----
 
 ## Matriz de Competências Técnicas
 
@@ -265,8 +259,6 @@ Foco em ambientes Linux estáveis, seguros, otimizados e construídos para alta 
 * **Alpine Linux:** Otimização e uso em ambientes de containers (Docker/Kubernetes) devido ao seu tamanho mínimo e foco em segurança.
 * **Kernel Customizado:** Compilação e configuração de Kernel (como uso de Grsecurity ou Patches customizados) para controle granular e reforço da segurança.
 
----
-
 ## Por que me Contratar?
 
 * **Comunicação Direta:** Zero jargão técnico desnecessário. O que importa é o resultado e a clareza do plano de ação.
@@ -278,8 +270,6 @@ Foco em ambientes Linux estáveis, seguros, otimizados e construídos para alta 
 **Pronto para simplificar sua TI?**
 
 0**Contato:** ddpp (arroba) protonmail.com
-
----
 
 ## 🔒 Chave PGP Pública (Comunicação Criptografada)
 
