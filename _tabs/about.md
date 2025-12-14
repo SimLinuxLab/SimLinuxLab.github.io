@@ -170,32 +170,24 @@ Organizo a sua infraestrutura em três áreas de foco, garantindo estabilidade e
 ### 1. ☁️ Infraestrutura e Hardening
 Transformação da base operacional para máxima segurança e superfície mínima de ataque.
 
-**ShadowForge OS**
-: Sistema Linux endurecido (Hardening), baseado em Debian, otimizado para a sua função.
+* **ShadowForge OS:** Sistema Linux endurecido (Hardening), baseado em Debian, otimizado para a sua função.
 
-**Criptografia LUKS**
-: Criptografia completa de disco com gerenciamento de chaves para proteção de dados em repouso.
+* **Criptografia LUKS:** Criptografia completa de disco com gerenciamento de chaves para proteção de dados em repouso.
 
-**Firewall UFW**
-: Implementação de política *deny-by-default*: bloqueio total do que não é estritamente necessário.
+* **Firewall UFW:** Implementação de política *deny-by-default*: bloqueio total do que não é estritamente necessário.
 
-**AIDE / Auditd**
-: Monitoramento de integridade de arquivos essenciais e auditoria de kernel para detecção de anomalias.
+* **AIDE / Auditd:** Monitoramento de integridade de arquivos essenciais e auditoria de kernel para detecção de anomalias.
 
 ### 2. ⚙️ Automação e Resiliência
 Eliminando o trabalho manual e garantindo que o sistema possa se recuperar de falhas.
 
-**Ansible + SOPS**
-: Provisionamento e configuração automatizados, com segredos sensíveis criptografados.
+* **Ansible + SOPS:** Provisionamento e configuração automatizados, com segredos sensíveis criptografados.
 
-**BorgBackup**
-: Soluções de backup deduplicado e autenticado para recuperação rápida de desastres (DR).
+* **BorgBackup:** Soluções de backup deduplicado e autenticado para recuperação rápida de desastres (DR).
 
-**Synapse (Matrix)**
-: Implementação de comunicação interna (chat) criptografada de ponta a ponta e auto-hospedada.
+* **Synapse (Matrix):** Implementação de comunicação interna (chat) criptografada de ponta a ponta e auto-hospedada.
 
-**Syncthing**
-: Sincronização P2P (Peer-to-Peer) em tempo real, eliminando a dependência de serviços de nuvem de terceiros.
+* **Syncthing:** Sincronização P2P (Peer-to-Peer) em tempo real, eliminando a dependência de serviços de nuvem de terceiros.
 
 ### 3. 🔐 Segurança Ofensiva (Testes)
 Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encontre.
