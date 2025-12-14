@@ -277,7 +277,7 @@ Para garantir a privacidade das nossas comunicações e a integridade de documen
 
 O meu *fingerprint* e chave pública estão disponíveis abaixo para importação:
 
-```key
+```bash
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQENBFhX60IBCADg9L9s1p/T0/q/l+H9X8x8i/j+t8n8d9s7e4f8g9m1u1s0t/A3
