@@ -151,7 +151,7 @@ icon: fas fa-handshake-angle
 order: 5 
 ---
 
-# 🛡️ SimLinux Consultoria: DevSecOps para PMEs
+# SimLinux Consultoria: DevSecOps para PMEs
 
 A maioria das empresas não tem um departamento de TI completo, mas ainda assim exige ambientes **seguros, eficientes e previsíveis**. É aí que a consultoria **SimLinux** entra.
 
@@ -163,11 +163,11 @@ Eu transformo infraestruturas vulneráveis e caóticas em sistemas baseados em *
 
 ---
 
-## 🛠️ Nossos Pilares de Serviço
+## Nossos Pilares de Serviço
 
 Organizo a sua infraestrutura em três áreas de foco, garantindo estabilidade e escalabilidade.
 
-### 1. ☁️ Infraestrutura e Hardening
+### Infraestrutura e Hardening
 Transformação da base operacional para máxima segurança e superfície mínima de ataque.
 
 * **ShadowForge OS:** Sistema Linux endurecido (Hardening), baseado em Debian, otimizado para a sua função.
@@ -178,7 +178,7 @@ Transformação da base operacional para máxima segurança e superfície mínim
 
 * **AIDE / Auditd:** Monitoramento de integridade de arquivos essenciais e auditoria de kernel para detecção de anomalias.
 
-### 2. ⚙️ Automação e Resiliência
+### Automação e Resiliência
 Eliminando o trabalho manual e garantindo que o sistema possa se recuperar de falhas.
 
 * **Ansible + SOPS:** Provisionamento e configuração automatizados, com segredos sensíveis criptografados.
@@ -189,7 +189,7 @@ Eliminando o trabalho manual e garantindo que o sistema possa se recuperar de fa
 
 * **Syncthing:** Sincronização P2P (Peer-to-Peer) em tempo real, eliminando a dependência de serviços de nuvem de terceiros.
 
-### 3. 🔐 Segurança Ofensiva (Testes)
+### Segurança Ofensiva (Testes)
 Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encontre.
 
 * **Varredura de Vulnerabilidades:** Identificação de falhas conhecidas na sua infraestrutura.
@@ -198,7 +198,7 @@ Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encon
 
 ---
 
-## 💰 Opções de Contratação (Estimativas em R$)
+## Opções de Contratação (Estimativas em R$)
 
 Os valores finais são definidos após a avaliação do ambiente, mas aqui estão as faixas de preço no mercado brasileiro para orientar o investimento inicial.
 
@@ -213,7 +213,7 @@ Os valores finais são definidos após a avaliação do ambiente, mas aqui estã
 
 ---
 
-## ✨ Matriz de Competências Técnicas
+## Matriz de Competências Técnicas
 
 As seguintes tecnologias fazem parte da sua base de trabalho, com um resumo do nível de atendimento que ofereço:
 
@@ -235,7 +235,7 @@ As seguintes tecnologias fazem parte da sua base de trabalho, com um resumo do n
 
 ---
 
-## 🤝 Por que me Contratar?
+## Por que me Contratar?
 
 * **Comunicação Direta:** Zero jargão desnecessário. O que importa é o resultado.
 * **Foco em Autonomia:** O objetivo é transferir conhecimento. Você não fica refém do consultor.
@@ -243,7 +243,7 @@ As seguintes tecnologias fazem parte da sua base de trabalho, com um resumo do n
 
 **Pronto para simplificar sua TI?**
 
-📩 **Contato:** **ddpp@protonmail.com**
+**Contato:** **ddpp@protonmail.com**
 
 ---
 *Disclaimer: Avaliações de segurança exigem autorização formal do cliente. Os preços são indicativos e não contratuais.*
