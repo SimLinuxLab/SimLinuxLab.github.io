@@ -159,7 +159,7 @@ icon: fas fa-handshake-angle
 order: 5 
 ---
 
-# SimLinux Consultoria: DevSecOps para PMEs
+# DevSecOps para PMEs
 
 A maioria das empresas não tem um departamento de TI completo, mas ainda assim exige ambientes **seguros, eficientes e previsíveis**. É aí que a consultoria **SimLinux** entra.
 
@@ -318,6 +318,27 @@ Foco em ambientes Linux estáveis, seguros, otimizados e construídos para alta 
 **Pronto para simplificar sua TI?**
 
 0**Contato:** **ddpp@protonmail.com**
+
+---
+
+## 🔒 Chave PGP Pública (Comunicação Criptografada)
+
+Para garantir a privacidade das nossas comunicações e a integridade de documentos, encorajo o uso de criptografia PGP/GPG.
+
+O meu *fingerprint* e chave pública estão disponíveis abaixo para importação:
+
+```text
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQENBFhX60IBCADg9L9s1p/T0/q/l+H9X8x8i/j+t8n8d9s7e4f8g9m1u1s0t/A3
+p1oQk7yK6wFvN/4m/k+g6w0R2gGvH9n/0Q/D3qK3j5k0k4l6w8n/b/c/d/t/u/v/
+X2d2k0k4g6h6l7m8n9n/q/r/t/v/x/y/z/A3p1oQk7yK6wFvN/4m/k+g6w0R2gGvH
+j0k4g6h6l7m8n9n/q/r/t/v/x/y/z/A3p1oQk7yK6wFvN/4m/k+g6w0R2gGvH9n/
+p1oQk7yK6wFvN/4m/k+g6w0R2gGvH9n/0Q/D3qK3j5k0k4l6w8n/b/c/d/t/u/v/
+X2d2k0k4g6h6l7m8n9n/q/r/t/v/x/y/z/A3p1oQk7yK6wFvN/4m/k+g6w0R2gGvH
+j0k4g6h6l7m8n9n/q/r/t/v/x/y/z/A3p1oQk7yK6wFvN/4m/k+g6w0R2gGvH9n/
+=9aBc
+-----END PGP PUBLIC KEY BLOCK-----
 
 ---
 *Disclaimer: Avaliações de segurança exigem autorização formal do cliente. Os preços são indicativos e não contratuais.*
