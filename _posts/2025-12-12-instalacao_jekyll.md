@@ -7,7 +7,7 @@ categories: [DevOps, Web]
 tags: [jekyll, github-pages, chirpy, cloud-native]
 pin: true
 image:
-  path: https://chirpy.cotes.page/assets/img/favicons/android-chrome-512x512.png
+  path: https://chirpy-img.netlify.app/commons/devices-mockup.png
   alt: Logo do tema Chirpy
 ---
 
