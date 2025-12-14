@@ -269,9 +269,9 @@ Foco em ambientes Linux estáveis, seguros, otimizados e construídos para alta 
 
 **Pronto para simplificar sua TI?**
 
-0**Contato:** ddpp (arroba) protonmail.com
+**Contato:** ddpp (arroba) protonmail.com
 
-## 🔒 Chave PGP Pública (Comunicação Criptografada)
+## Chave PGP Pública (Comunicação Criptografada)
 
 Para garantir a privacidade das nossas comunicações e a integridade de documentos, encorajo o uso de criptografia PGP/GPG.
 
