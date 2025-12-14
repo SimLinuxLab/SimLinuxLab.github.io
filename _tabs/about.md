@@ -167,7 +167,6 @@ Eu transformo infraestruturas vulneráveis e caóticas em sistemas baseados em *
 
 > **O Foco é em TI Enxuta:**
 > Implemento automação, segurança Hardening e monitoramento para que a sua operação funcione sem "apagar incêndios" diários, reduzindo o risco de falhas e ciberataques.
-{: .prompt-tip }
 
 ---
 
