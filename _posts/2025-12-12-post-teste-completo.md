@@ -2,7 +2,7 @@
 layout: post
 title: "Post de Teste Completo – Markdown no Chirpy"
 date: 2025-12-12 10:00:00 +0000
-categories: [Web Dev,Jekyll,Chirpy]
+categories: [Web Dev,Chirpy]
 tags: [markdown, jekyll, chirpy, exemplos]
 ---
 
