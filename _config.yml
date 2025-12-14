@@ -59,7 +59,8 @@ theme_mode: dark
 
 cdn:
 
-avatar:
+# The avatar image path, e.g. '/assets/img/avatar.png'
+avatar: /assets/img/favicon.svg
 
 social_preview_image:
 
