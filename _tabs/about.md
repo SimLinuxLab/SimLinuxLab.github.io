@@ -159,7 +159,7 @@ icon: fas fa-handshake-angle
 order: 5 
 ---
 
-# 🛡️ SimLinux Consultoria: DevSecOps para PMEs
+# SimLinux Consultoria: DevSecOps para PMEs
 
 A maioria das empresas não tem um departamento de TI completo, mas ainda assim exige ambientes **seguros, eficientes e previsíveis**. É aí que a consultoria **SimLinux** entra.
 
@@ -171,11 +171,12 @@ Eu transformo infraestruturas vulneráveis e caóticas em sistemas baseados em *
 
 ---
 
-## 🛠️ Nossos Pilares de Serviço
+## Nossos Pilares de Serviço
 
 Organizo a sua infraestrutura em três áreas de foco, garantindo estabilidade e escalabilidade.
 
 ### Infraestrutura e Hardening
+
 A segurança começa na base. Esta área foca em transformar a base operacional para máxima segurança e superfície mínima de ataque.
 
 * **ShadowForge OS:** Sistema Linux endurecido (Hardening), baseado em Debian, otimizado para a sua função.
@@ -184,6 +185,7 @@ A segurança começa na base. Esta área foca em transformar a base operacional 
 * **AIDE / Auditd:** Monitoramento de integridade de arquivos essenciais e auditoria de kernel para detecção de anomalias.
 
 ### Automação e Resiliência
+
 Elimine o trabalho manual repetitivo. Implementamos ferramentas que garantem que o sistema possa se configurar e se recuperar de falhas de forma autônoma.
 
 * **Ansible + SOPS:** Provisionamento e configuração automatizados, com segredos sensíveis criptografados.
@@ -192,6 +194,7 @@ Elimine o trabalho manual repetitivo. Implementamos ferramentas que garantem que
 * **Syncthing:** Sincronização P2P (Peer-to-Peer) em tempo real, eliminando a dependência de serviços de nuvem de terceiros.
 
 ### Segurança Ofensiva (Testes)
+
 Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encontre. Realizamos avaliações rigorosas da sua postura de segurança.
 
 * **Varredura de Vulnerabilidades:** Identificação de falhas conhecidas na sua infraestrutura.
@@ -200,7 +203,7 @@ Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encon
 
 ---
 
-## 💰 Opções de Contratação (Estimativas em R$)
+## Opções de Contratação (Estimativas em R$)
 
 Os valores finais são definidos após a avaliação do ambiente, mas aqui estão as faixas de preço no mercado brasileiro para orientar o investimento inicial.
 
@@ -220,24 +223,34 @@ Os valores finais são definidos após a avaliação do ambiente, mas aqui estã
 As seguintes tecnologias fazem parte da sua base de trabalho, e esta matriz resume o nível de atendimento que você pode esperar em cada uma.
 
 ### Automação & Configuração
+
 Otimização de fluxos de trabalho e provisionamento padronizado de máquinas.
+
 * **Ansible:** Implementação, Hardening de Playbooks, Gerenciamento de Segredos (SOPS).
 
 ### Criptografia & Privacidade
+
 Garantindo que os dados em repouso e em trânsito estejam inacessíveis a terceiros não autorizados.
+
 * **LUKS (Disk):** Design e Implementação de Estratégia de Criptografia de Disco.
 * **Synapse (Comunicação):** Implementação de servidor de comunicação segura e auto-hospedada.
 
 ### Backup & Recuperação (DR)
+
 Soluções robustas para garantir a continuidade dos negócios após um desastre (Disaster Recovery).
+
 * **BorgBackup:** Configuração de Rotinas Deduplicadas e Autenticadas.
 
 ### Auditoria & Monitoramento
+
 Estabelecendo transparência e rastreabilidade nas operações de sistema.
+
 * **AIDE / Auditd:** Configuração de Regras, Revisão de Logs, Monitoramento de Integridade do Sistema.
 
 ### Sistemas Operacionais
+
 Foco em ambientes Linux estáveis, otimizados e construídos para alta disponibilidade.
+
 * **Debian, Ubuntu, RedHat:** Instalação Endurecida (Hardening) e Otimização.
 
 ---
@@ -250,7 +263,7 @@ Foco em ambientes Linux estáveis, otimizados e construídos para alta disponibi
 
 **Pronto para simplificar sua TI?**
 
-📩 **Contato:** **ddpp@protonmail.com**
+0**Contato:** **ddpp@protonmail.com**
 
 ---
 *Disclaimer: Avaliações de segurança exigem autorização formal do cliente. Os preços são indicativos e não contratuais.*
