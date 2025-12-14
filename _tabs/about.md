@@ -220,44 +220,6 @@ Os valores finais são definidos após a avaliação do ambiente, mas aqui estã
 
 ---
 
-## Opções de Contratação (Estimativas em R$)
-
-Os valores finais são definidos após a avaliação do ambiente. Estas faixas de preço servem como orientação inicial no mercado brasileiro, refletindo a expertise em DevSecOps.
-
-### Projetos e Implementação
-
-> **Projeto Único (Infra/Automação)**
-> Instalação, Hardening e Automação de Backups.
-> **R$ 6.000 – R$ 15.000** por projeto
-{: .prompt-info }
-
-> **Avaliação de Risco (Básico)**
-> Varredura de vulnerabilidades e Relatório de Hardening (Escopo Limitado).
-> **R$ 3.500 – R$ 7.500**
-{: .prompt-warning }
-
-> **Testes de Penetração (Pentest)**
-> Avaliação detalhada, exploração controlada e Relatório Tático.
-> **R$ 8.000 – R$ 18.000+**
-{: .prompt-danger }
-
-### Suporte e Consultoria
-
-> **Consultoria / Hora (Spot)**
-> Estratégia, Migração, Suporte Pontual de Especialista.
-> **R$ 300 – R$ 600 / hora**
-{: .prompt-tip }
-
-> **Retainer Mensal (Suporte Contínuo)**
-> Monitoramento Proativo e Suporte Mensal Fixo.
-> **R$ 4.000 – R$ 8.000 / mês**
-{: .prompt-success }
-
-> **Nota:** Projetos que combinam **Automação + Segurança** geralmente recebem preços mais competitivos. Contratos contínuos (Retainer) oferecem o melhor custo-benefício para estabilidade de longo prazo.
-{: .prompt-info }
-
----
-
 ## Matriz de Competências Técnicas
 
 As seguintes tecnologias fazem parte da sua base de trabalho, e esta matriz resume o nível de atendimento que você pode esperar em cada uma.
@@ -327,7 +289,7 @@ Para garantir a privacidade das nossas comunicações e a integridade de documen
 
 O meu *fingerprint* e chave pública estão disponíveis abaixo para importação:
 
-```text
+```key
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQENBFhX60IBCADg9L9s1p/T0/q/l+H9X8x8i/j+t8n8d9s7e4f8g9m1u1s0t/A3
@@ -339,6 +301,7 @@ X2d2k0k4g6h6l7m8n9n/q/r/t/v/x/y/z/A3p1oQk7yK6wFvN/4m/k+g6w0R2gGvH
 j0k4g6h6l7m8n9n/q/r/t/v/x/y/z/A3p1oQk7yK6wFvN/4m/k+g6w0R2gGvH9n/
 =9aBc
 -----END PGP PUBLIC KEY BLOCK-----
+```
 
 ---
 *Disclaimer: Avaliações de segurança exigem autorização formal do cliente. Os preços são indicativos e não contratuais.*
