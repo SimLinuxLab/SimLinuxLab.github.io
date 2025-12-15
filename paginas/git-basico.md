@@ -9,7 +9,7 @@ icon: fab fa-git-alt
 
 > **Resumo:** O Git é a "Máquina do Tempo" do teu código. Ele permite salvar versões, voltar atrás se der erro e trabalhar em equipe sem sobrescrever o trabalho do outro.
 
-## 1. ⚙️ Configuração Inicial (A Identidade)
+## Configuração Inicial (A Identidade)
 Antes de qualquer coisa, você precisa dizer ao Git quem você é. Isso ficará gravado para sempre no histórico.
 
 ```bash
@@ -17,7 +17,7 @@ git config --global user.name "Seu Nome"
 git config --global user.email "seu.email@exemplo.com"
 ```
 
-## 2. 🏁 Iniciando um Projeto
+## Iniciando um Projeto
 
 ### Criar um repositório do zero
 ```bash
@@ -31,7 +31,7 @@ git init
 git clone [https://github.com/usuario/projeto.git](https://github.com/usuario/projeto.git)
 ```
 
-## 3. 🔄 O Ciclo de Vida (O Dia a Dia)
+## O Ciclo de Vida (O Dia a Dia)
 
 O fluxo de trabalho do Git tem 3 estágios:
 1.  **Working Dir:** Onde você edita os arquivos.
@@ -53,7 +53,7 @@ git commit -m "feat: adiciona nova funcionalidade de login"
 > **Dica de Ouro:** Nunca use mensagens vagas como "ajustes" ou "update". Diga **o que** você fez.
 {: .prompt-tip }
 
-## 4. 🚀 Sincronizando com o GitHub
+## Sincronizando com o GitHub
 
 ```bash
 # Envia suas alterações para a nuvem (branch main)
@@ -63,7 +63,7 @@ git push origin main
 git pull origin main
 ```
 
-## 5. 🛡️ Segurança (DevSecOps)
+## Segurança (DevSecOps)
 
 O maior erro de iniciantes é subir senhas, chaves de API ou arquivos de configuração (`.env`) para o GitHub público.
 
@@ -81,7 +81,7 @@ node_modules/
 > **Perigo:** Se você der `git add .` sem ter um `.gitignore` configurado, você pode vazar credenciais. Verifique sempre o `git status` antes de fazer o commit.
 {: .prompt-danger }
 
-## 6. 🚑 SOS (Comandos Úteis)
+## SOS (Comandos Úteis)
 
 * `git log`: Mostra o histórico de commits.
 * `git diff`: Mostra o que você alterou no código antes de adicionar.
