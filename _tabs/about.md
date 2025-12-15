@@ -44,23 +44,6 @@ Sinta-se à vontade para conectar, sugerir correções ou discutir sobre seguran
 
 ---
 
-## 💰 Opções de Contratação (Estimativas em R$)
-
-Os valores finais são definidos após a avaliação do ambiente, mas aqui estão as faixas de preço no mercado brasileiro para orientar o investimento inicial.
-
-| Categoria | Tipo de Serviço | Faixa de Preço (Estimativa em R$) |
-| :--- | :--- | :--- |
-| **Projeto Único (Infra)** | Instalação e Hardening, Automação de Backups. | **R$ 6.000 – R$ 15.000** por projeto |
-| **Avaliação de Risco** | Varredura de vulnerabilidades e relatório de Hardening. | **R$ 3.500 – R$ 7.500** (Básico) |
-| **Testes de Penetração** | Avaliação detalhada, exploração controlada (Pentest). | **R$ 8.000 – R$ 18.000+** |
-| **Consultoria / Hora** | Estratégia, Migração, Suporte (Spot). | **R$ 300 – R$ 600 / hora** |
-| **Retainer Mensal** | Suporte e Monitoramento Proativo Contínuo. | **R$ 4.000 – R$ 8.000 / mês** |
-
-> **Nota:** Projetos que combinam **Automação + Segurança** geralmente recebem preços mais competitivos. Contratos contínuos (Retainer) oferecem o melhor custo-benefício para estabilidade de longo prazo.
-{: .prompt-info }
-
----
-
 # DevSecOps para PMEs
 
 A maioria das empresas não tem um departamento de TI completo, mas ainda assim exige ambientes **seguros, eficientes e previsíveis**. É aí que a consultoria **SimLinux** entra.
@@ -112,17 +95,20 @@ Melhor encontrar as vulnerabilidades antes que alguém mal-intencionado as encon
 * **OSINT (Open Source Intelligence):** Coleta e análise de informações públicas para identificar vetores de ataque externos e fugas de dados (Data Leaks).
 * **Relatórios Acionáveis:** Entregáveis focados em **Mitigação** e priorização de correções, não apenas na lista de falhas.
 
-## Opções de Contratação (Estimativas em R$)
+## 💰 Opções de Contratação (Estimativas em R$)
 
 Os valores finais são definidos após a avaliação do ambiente, mas aqui estão as faixas de preço no mercado brasileiro para orientar o investimento inicial.
 
-* **Projeto Único (Infra):** Instalação e Hardening, Automação de Backups. **R$ 6.000 – R$ 15.000** por projeto
-* **Avaliação de Risco (Básico):** Varredura de vulnerabilidades e relatório de Hardening. **R$ 3.500 – R$ 7.500** (Escopo Limitado)
-* **Testes de Penetração (Pentest):** Avaliação detalhada, exploração controlada. **R$ 8.000 – R$ 18.000+**
-* **Consultoria / Hora:** Estratégia, Migração, Suporte (Spot). **R$ 300 – R$ 600 / hora**
-* **Retainer Mensal:** Suporte e Monitoramento Proativo Contínuo. **R$ 4.000 – R$ 8.000 / mês**
+| Categoria | Tipo de Serviço | Faixa de Preço (Estimativa em R$) |
+| :--- | :--- | :--- |
+| **Projeto Único (Infra)** | Instalação e Hardening, Automação de Backups. | **R$ 6.000 – R$ 15.000** por projeto |
+| **Avaliação de Risco** | Varredura de vulnerabilidades e relatório de Hardening. | **R$ 3.500 – R$ 7.500** (Básico) |
+| **Testes de Penetração** | Avaliação detalhada, exploração controlada (Pentest). | **R$ 8.000 – R$ 18.000+** |
+| **Consultoria / Hora** | Estratégia, Migração, Suporte (Spot). | **R$ 300 – R$ 600 / hora** |
+| **Retainer Mensal** | Suporte e Monitoramento Proativo Contínuo. | **R$ 4.000 – R$ 8.000 / mês** |
 
-> **Nota:** Projetos que combinam **Automação + Segurança** geralmente recebem preços mais competitivos. Contratos contínuos (Retainer) oferecem o melhor 
+> **Nota:** Projetos que combinam **Automação + Segurança** geralmente recebem preços mais competitivos. Contratos contínuos (Retainer) oferecem o melhor custo-benefício para estabilidade de longo prazo.
+{: .prompt-info }
 
 ## Matriz de Competências Técnicas
 
