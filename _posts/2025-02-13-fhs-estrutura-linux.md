@@ -42,7 +42,7 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 `/tmp`{: .filepath}.
 : (Temporary). O "Velho Oeste". Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
 
-### `/usr`
+## /usr
 (Unix System Resources). Onde moram os programas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows).
 
 ## Analogia: O Prédio Corporativo
