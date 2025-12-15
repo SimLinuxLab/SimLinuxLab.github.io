@@ -4,14 +4,14 @@ layout: page
 icon: fas fa-info-circle
 order: 4
 # Pode alterar o titulo abaixo
-title: Sobre o SimLinux Lab
+title: Sobre o SimLinuxLab
 ---
 
 ## Bem-Vindo
 
 Eu sou o Renato, um entusiasta de tecnologia em transição para me tornar um **Engenheiro DevSecOps**.
 
-Este blog é o meu "Caderno de Campo" digital. Aqui, documento a minha jornada saindo do zero, passando pela administração de sistemas Linux, até chegar à automação de infraestrutura e segurança ofensiva/defensiva.
+Este blog é o meu "Caderno de Campo" digital. Aqui, documento toda a minha jornada de estudos, testes e experiencias, passando pela administração de sistemas Linux, até chegar à automação de infraestrutura e segurança ofensiva/defensiva.
 
 > **Objetivo:** Transformar teoria complexa em manuais práticos, seguros e diretos ao ponto.
 {: .prompt-tip }
