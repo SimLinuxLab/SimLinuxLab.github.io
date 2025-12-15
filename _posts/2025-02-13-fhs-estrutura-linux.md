@@ -27,17 +27,23 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 ### Os Diretórios Críticos
 
-- `/bin`{: .filepath}. Comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
+`/bin`{: .filepath}. Comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
+{: .prompt-tip }
 
-- `/sbin`{: .filepath}. Binários de **S**istema. Comandos que alteram o sistema e geralmente exigem root (ex: `iptables`, `fdisk`, `reboot`).
+`/sbin`{: .filepath}. Binários de **S**istema. Comandos que alteram o sistema e geralmente exigem root (ex: `iptables`, `fdisk`, `reboot`).
+{: .prompt-tip }
 
 - `/etc`{: .filepath}. (Etcetera/Editable Text Configurations). O coração da configuração. Aqui vivem os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
+{: .prompt-tip }
 
 - `/var`{: .filepath}. (Variable). Arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
+{: .prompt-tip }
 
 - `/tmp`{: .filepath}. (Temporary). O "Velho Oeste". Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
+{: .prompt-tip }
 
 - `/usr`{: .filepath}. (Unix System Resources). Onde moram os programas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows).
+{: .prompt-tip }
 
 ### Os Diretórios Críticos
 
