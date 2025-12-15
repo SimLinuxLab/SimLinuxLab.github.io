@@ -27,8 +27,8 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 ### Os Diretórios Críticos
 
-> ## `/bin` 
-> - Comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
+> ## /bin
+> Comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
 {: .prompt-tip }
 
 > `/sbin`{: .filepath}. Binários de **S**istema. Comandos que alteram o sistema e geralmente exigem root (ex: `iptables`, `fdisk`, `reboot`).
