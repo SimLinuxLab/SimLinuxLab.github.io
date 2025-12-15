@@ -29,6 +29,52 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS) do Linux.
 
+#### /boot
+* (Inicialização)
+* Contém os arquivos estáticos necessários para iniciar o sistema operacional, antes que o kernel comece a executar programas do usuário.
+* Aspecto Crítico: Se este diretório for danificado ou as permissões estiverem incorretas, o sistema não conseguirá inicializar.
+* Exemplos de Conteúdo: Arquivos de configuração do carregador de inicialização (como o GRUB) e a imagem do kernel (`vmlinuz`).
+
+#### /dev
+* (Arquivos de Dispositivos)
+* Contém arquivos especiais que representam dispositivos de hardware (periféricos, discos rígidos, terminais, memória).
+* Importância: É o mecanismo que o kernel do Linux usa para se comunicar com o hardware. Esses "arquivos" não contêm dados, mas sim interfaces.
+* Exemplos de Conteúdo: `/dev/sda` (primeiro disco rígido), `/dev/tty1` (console), `/dev/zero` (fonte de caracteres nulos), `/dev/random` (fonte de aleatoriedade).
+
+#### /etc
+* (Configurações Centrais)
+* O coração da configuração do sistema, contendo arquivos estáticos para todos os programas e serviços.
+* Regra de Ouro: Não deve conter binários ou diretórios home. Apenas arquivos de texto editáveis (`.conf`, `.cfg`).
+* Exemplos de Conteúdo Crítico: `/etc/passwd` (usuários), `/etc/shadow` (senhas criptografadas), `/etc/fstab` (montagem de *filesystems*), e arquivos de configuração de serviços como SSH e Apache.
+
+#### /sbin
+* (Binários do Sistema)
+* Contém comandos de administração do sistema que geralmente exigem permissões de **root**.
+* Exemplos de comandos: `iptables` (firewall), `fdisk` (particionamento), `reboot` (reinicialização), `ifconfig` (rede).
+
+#### /bin
+* (Binários Essenciais)
+* Contém comandos essenciais que **qualquer usuário** pode rodar.
+* Exemplos de comandos: `ls` (listar), `cp` (copiar), `cat` (concatenar e exibir), `mv` (mover), `rm` (remover).
+
+#### /usr
+* (Recursos do Sistema Unix)
+* Contém a maior parte dos utilitários e aplicações de uso não essencial do sistema, incluindo bibliotecas, documentação e executáveis.
+* É onde moram a maioria dos programas e bibliotecas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows ou `C:\Program Files`).
+* Exemplos de Subdiretórios: `/usr/bin` (binários não essenciais), `/usr/lib` (bibliotecas), `/usr/share` (arquivos de dados estáticos).
+
+#### /var
+* (Arquivos Variáveis)
+* Contém arquivos que mudam constantemente durante o funcionamento normal do sistema, como *spools*, arquivos temporários de programas e logs.
+* Aspecto Crítico: Este diretório pode crescer muito rapidamente, exigindo monitoramento e gerenciamento de espaço em disco.
+* Exemplos de Conteúdo: `/var/log` (arquivos de log de sistema e aplicações), `/var/www` (conteúdo de sites hospedados), `/var/spool` (filas de impressão e e-mail).
+
+#### /tmp
+* (Temporário)
+* Projetado para arquivos temporários que não precisam ser preservados entre sessões ou reinicializações.
+* Aspecto Crítico de Segurança: É um "Velho Oeste" onde qualquer usuário pode escrever e ler, tornando-o um alvo comum para ataques que buscam escalada de privilégios ou armazenamento de *malware*.
+* Manutenção: O sistema limpa o conteúdo do `/tmp` a cada reinicialização ou periodicamente (dependendo da distribuição/configuração do `systemd-tmpfiles`).
+
 #### /root
 * (Diretório Home do Root)
 * O diretório pessoal exclusivo do superusuário (`root`).
@@ -39,55 +85,6 @@ Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS)
 * Contém os diretórios pessoais (ou *home directories*) de todos os usuários comuns do sistema (ex: `/home/renato`, `/home/outro_usuario`).
 * Importância: Armazena arquivos, documentos e todas as configurações específicas de cada usuário (os chamados "dotfiles", como `.bashrc` ou `.vimrc`).
 * Aspecto de Segurança: As permissões aqui são cruciais, garantindo que um usuário não possa ler ou modificar os arquivos de outro.
-
-#### /bin 
-* (Binários Essenciais)
-* Contém comandos essenciais que **qualquer usuário** pode rodar.
-* Exemplos de comandos: `ls` (listar), `cp` (copiar), `cat` (concatenar e exibir), `mv` (mover), `rm` (remover).
-
-#### /sbin
-
-* (Binários do Sistema)
-* Contém comandos de administração do sistema que geralmente exigem permissões de **root**.
-* Exemplos de comandos: `iptables` (firewall), `fdisk` (particionamento), `reboot` (reinicialização), `ifconfig` (rede).
-
-#### /etc
-* (Configurações Centrais)
-* O coração da configuração do sistema, contendo arquivos estáticos para todos os programas e serviços.
-* Regra de Ouro: Não deve conter binários ou diretórios home. Apenas arquivos de texto editáveis (`.conf`, `.cfg`).
-* Exemplos de Conteúdo Crítico: `/etc/passwd` (usuários), `/etc/shadow` (senhas criptografadas), `/etc/fstab` (montagem de *filesystems*), e arquivos de configuração de serviços como SSH e Apache.
-
-#### /var
-* (Arquivos Variáveis)
-* Contém arquivos que mudam constantemente durante o funcionamento normal do sistema, como *spools*, arquivos temporários de programas e logs.
-* Aspecto Crítico: Este diretório pode crescer muito rapidamente, exigindo monitoramento e gerenciamento de espaço em disco.
-* Exemplos de Conteúdo: `/var/log` (arquivos de log de sistema e aplicações), `/var/www` (conteúdo de sites hospedados), `/var/spool` (filas de impressão e e-mail).
-
-#### /tmp
-
-* (Temporário)
-* Projetado para arquivos temporários que não precisam ser preservados entre sessões ou reinicializações.
-* Aspecto Crítico de Segurança: É um "Velho Oeste" onde qualquer usuário pode escrever e ler, tornando-o um alvo comum para ataques que buscam escalada de privilégios ou armazenamento de *malware*.
-* Manutenção: O sistema limpa o conteúdo do `/tmp` a cada reinicialização ou periodicamente (dependendo da distribuição/configuração do `systemd-tmpfiles`).
-
-#### /usr
-
-* (Recursos do Sistema Unix)
-* Contém a maior parte dos utilitários e aplicações de uso não essencial do sistema, incluindo bibliotecas, documentação e executáveis.
-* É onde moram a maioria dos programas e bibliotecas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows ou `C:\Program Files`).
-* Exemplos de Subdiretórios: `/usr/bin` (binários não essenciais), `/usr/lib` (bibliotecas), `/usr/share` (arquivos de dados estáticos).
-
-#### /dev
-* (Arquivos de Dispositivos)
-* Contém arquivos especiais que representam dispositivos de hardware (periféricos, discos rígidos, terminais, memória).
-* Importância: É o mecanismo que o kernel do Linux usa para se comunicar com o hardware. Esses "arquivos" não contêm dados, mas sim interfaces.
-* Exemplos de Conteúdo: `/dev/sda` (primeiro disco rígido), `/dev/tty1` (console), `/dev/zero` (fonte de caracteres nulos), `/dev/random` (fonte de aleatoriedade).
-
-#### /boot
-* (Inicialização)
-* Contém os arquivos estáticos necessários para iniciar o sistema operacional, antes que o kernel comece a executar programas do usuário.
-* Aspecto Crítico: Se este diretório for danificado ou as permissões estiverem incorretas, o sistema não conseguirá inicializar.
-* Exemplos de Conteúdo: Arquivos de configuração do carregador de inicialização (como o GRUB) e a imagem do kernel (`vmlinuz`).
 
 ## 💻 Exemplos Práticos (Níveis)
 
