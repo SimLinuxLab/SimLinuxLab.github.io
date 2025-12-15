@@ -2,6 +2,7 @@
 layout: post
 title: "Post de Teste Completo – Markdown no Chirpy"
 date: 2025-12-12 10:00:00 +0000
+author: SimLinuxLab
 categories: [Web Dev,Chirpy]
 tags: [markdown, jekyll, chirpy, exemplos]
 ---
