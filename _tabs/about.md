@@ -67,7 +67,7 @@ Elimine o trabalho manual repetitivo. Implementamos ferramentas que garantem que
 * **Synapse (Matrix):** Implementação de comunicação interna (chat) criptografada de ponta a ponta e auto-hospedada.
 * **Syncthing:** Sincronização P2P (Peer-to-Peer) em tempo real, eliminando a dependência de serviços de nuvem de terceiros.
 
-### 4 Defesa de Ponto Final e OPSEC
+### Defesa de Ponto Final e OPSEC
 
 A proteção mais crítica está no dispositivo do usuário e no perímetro da rede. Implementação de soluções que elevam a segurança do acesso e das máquinas clientes.
 
