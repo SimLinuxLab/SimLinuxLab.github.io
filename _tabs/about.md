@@ -7,9 +7,9 @@ order: 4
 title: Sobre o SimLinux Lab
 ---
 
-## Sobre Mim
+## Bem-Vindo
 
-Bem-vindo ao **SimLinux Lab**. Eu sou o Renato, um entusiasta de tecnologia em transição para me tornar um **Engenheiro DevSecOps**.
+Eu sou o Renato, um entusiasta de tecnologia em transição para me tornar um **Engenheiro DevSecOps**.
 
 Este blog é o meu "Caderno de Campo" digital. Aqui, documento a minha jornada saindo do zero, passando pela administração de sistemas Linux, até chegar à automação de infraestrutura e segurança ofensiva/defensiva.
 
