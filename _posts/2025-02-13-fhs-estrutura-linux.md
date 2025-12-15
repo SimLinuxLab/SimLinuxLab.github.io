@@ -27,27 +27,27 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 ### Os Diretórios Críticos
 
-### /bin
+#### /bin
 > Comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
 {: .prompt }
 
-### /sbin
+#### /sbin
 > Binários de **S**istema. Comandos que alteram o sistema e geralmente exigem root (ex: `iptables`, `fdisk`, `reboot`).
 {: .prompt }
 
-### /etc
+#### /etc
 > (Etcetera/Editable Text Configurations). O coração da configuração. Aqui vivem os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
 {: .prompt }
 
-### /var
+#### /var
 > (Variable). Arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
 {: .prompt }
 
-### /tmp
+#### /tmp
 > (Temporary). O "Velho Oeste". Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
 {: .prompt }
 
-### /us
+#### /us
 > (Unix System Resources). Onde moram os programas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows).
 {: .prompt }
 
