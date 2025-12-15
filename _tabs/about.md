@@ -25,16 +25,16 @@ O meu estudo baseia-se em padrões de mercado e certificações internacionais:
 * **Automação:** Shell Scripting, Ansible e GitOps.
 * **Segurança:** Hardening, Análise de Logs e DFIR (Digital Forensics and Incident Response).
 
-## Tech Stack
+## Meu Tech Stack de Trabalho
 
-As ferramentas que estou a dominar neste laboratório:
+As ferramentas e tecnologias que utilizo e aprofundo a minha experiência neste laboratório:
 
 | Categoria | Ferramentas |
 | :--- | :--- |
-| **OS** | Linux (Debian/RedHat/Ubuntu) |
-| **Code** | Bash, Python, Jekyll |
-| **Ops** | Docker, Git, GitHub Actions |
-| **Sec** | Nmap, Wireshark, Fail2ban |
+| **Sistemas Operacionais (OS)** | Debian, Ubuntu, RedHat/CentOS, Alpine Linux (Hardening e Otimização) |
+| **Linguagens (Code)** | Bash, Python (Automação e Scripting), Ruby (Jekyll) |
+| **Operações (Ops)** | Docker, Docker Compose, Git, GitHub Actions (CI/CD Básico), Ansible, Cron |
+| **Segurança & Análise (Sec)** | Nmap, Wireshark, Fail2ban, OpenVAS/Nessus (Varredura), AIDE, GPG, UFW |
 
 # DevSecOps para PMEs
 
