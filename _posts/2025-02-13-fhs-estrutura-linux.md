@@ -33,23 +33,23 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 ### /sbin
 > Binários de **S**istema. Comandos que alteram o sistema e geralmente exigem root (ex: `iptables`, `fdisk`, `reboot`).
-{: .prompt-tip }
+{: .prompt }
 
 ### /etc
 > (Etcetera/Editable Text Configurations). O coração da configuração. Aqui vivem os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
-{: .prompt-tip }
+{: .prompt }
 
 ### /var
 > (Variable). Arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
-{: .prompt-tip }
+{: .prompt }
 
 ### /tmp
 > (Temporary). O "Velho Oeste". Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
-{: .prompt-tip }
+{: .prompt }
 
 ### /us
 > (Unix System Resources). Onde moram os programas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows).
-{: .prompt-tip }
+{: .prompt }
 
 ### Os Diretórios Críticos
 
