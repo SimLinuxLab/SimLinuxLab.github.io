@@ -29,12 +29,12 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS) do Linux.
 
-* **`/bin` (Binários Essenciais):** Contém comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
-* **`/sbin` (Binários do Sistema):** Contém comandos que alteram o sistema e geralmente exigem permissões de root (ex: `iptables`, `fdisk`, `reboot`).
-* **`/etc` (Configurações):** O coração da configuração. Aqui vivem todos os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
-* **`/var` (Variável):** Contém arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
-* **`/tmp` (Temporário):** O "Velho Oeste" do sistema. Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
-* **`/usr` (Recursos do Sistema):** Onde moram a maioria dos programas e bibliotecas instalados pelos gerenciadores de pacotes (similar ao `Program Files` do Windows).
+* **/bin** (Binários Essenciais): Contém comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
+* **/sbin** (Binários do Sistema): Contém comandos que alteram o sistema e geralmente exigem permissões de root (ex: `iptables`, `fdisk`, `reboot`).
+* **/etc** (Configurações): O coração da configuração. Aqui vivem todos os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
+* **/var** (Variável): Contém arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
+* **/tmp** (Temporário): O "Velho Oeste" do sistema. Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
+* **/usr** (Recursos do Sistema): Onde moram a maioria dos programas e bibliotecas instalados pelos gerenciadores de pacotes (similar ao `Program Files` do Windows).
 
 ### Os Diretórios Críticos
 
@@ -48,6 +48,28 @@ Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS)
 | **/var** | Variável | Contém arquivos que crescem dinamicamente: Logs (`/var/log`),<br> Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`). |
 | **/tmp** | Temporário | O "Velho Oeste" do sistema. Qualquer um pode escrever aqui.<br> É limpo a cada reboot (geralmente). |
 | **/usr** | Recursos do Sistema | Onde moram a maioria dos programas e bibliotecas instalados<br> pelos gerenciadores de pacotes (similar ao `Program Files` do Windows). |
+
+## Os Diretórios Críticos
+
+Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS) do Linux.
+
+### /bin (Binários Essenciais): 
+Contém comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
+
+### /sbin (Binários do Sistema): 
+Contém comandos que alteram o sistema e geralmente exigem permissões de root (ex: `iptables`, `fdisk`, `reboot`).
+
+### /etc (Configurações): 
+O coração da configuração. Aqui vivem todos os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
+
+### /var (Variável): 
+Contém arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
+
+### /tmp (Temporário): 
+O "Velho Oeste" do sistema. Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
+
+### /usr (Recursos do Sistema): 
+Onde moram a maioria dos programas e bibliotecas instalados pelos gerenciadores de pacotes (similar ao `Program Files` do Windows).
 
 ## Analogia: O Prédio Corporativo
 
