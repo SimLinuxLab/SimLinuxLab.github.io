@@ -7,7 +7,7 @@ order: 4
 title: Sobre o SimLinux Lab
 ---
 
-## O Autor
+## Sobre Mim
 
 Bem-vindo ao **SimLinux Lab**. Eu sou o Renato, um entusiasta de tecnologia em transição para me tornar um **Engenheiro DevSecOps**.
 
