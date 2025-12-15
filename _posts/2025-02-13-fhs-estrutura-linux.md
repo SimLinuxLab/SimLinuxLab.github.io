@@ -1,7 +1,7 @@
 ---
 title: "FHS: A Estrutura de Diretórios e a Segurança do Linux"
 description: Entenda a anatomia do Linux, onde guardar seus arquivos e como isso impacta a segurança e automação.
-author: SimLinuxLab
+author: SimLinux
 date: 2025-02-13 12:00:00 -0300
 categories: [Linux, Arquitetura]
 tags: [fhs, lpi, rhcsa, hardening]

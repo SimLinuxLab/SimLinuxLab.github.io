@@ -2,7 +2,7 @@
 layout: post
 title: "Tutorial: Site Jekyll + Chirpy em 5 Minutos (Sem Instalar Nada)"
 description: Guia passo a passo para lançar seu blog DevSecOps usando apenas o navegador e o GitHub, sem necessidade de Ruby ou terminal local.
-author: SimLinuxLab
+author: SimLinux
 date: 2025-02-14 15:00:00 -0300
 categories: [Web Dev,Jekyll,Chirpy]
 tags: [jekyll, github-pages, chirpy, cloud-native]

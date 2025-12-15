@@ -1,7 +1,7 @@
 ---
 title: "Permissões Linux: O Guia Definitivo do chmod e chown"
 description: Domine a arte de proteger seus arquivos. Entenda rwx, modo octal e por que o chmod 777 é um pecado capital.
-author: SimLinuxLab
+author: SimLinux
 date: 2025-02-13 14:00:00 -0300
 categories: [Linux, Segurança]
 tags: [chmod, chown, permissoes, security]
