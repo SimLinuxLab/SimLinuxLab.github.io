@@ -86,7 +86,7 @@ Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS)
 * Importância: Armazena arquivos, documentos e todas as configurações específicas de cada usuário (os chamados "dotfiles", como `.bashrc` ou `.vimrc`).
 * Aspecto de Segurança: As permissões aqui são cruciais, garantindo que um usuário não possa ler ou modificar os arquivos de outro.
 
-### 🏢 Analogia: O Prédio Corporativo
+### Analogia: O Prédio Corporativo
 
 * **/ (Root):** A portaria principal.
 * **/home:** As mesas (estações de trabalho) dos funcionários.
@@ -95,7 +95,7 @@ Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS)
 * **/var/log:** As câmeras de segurança gravando tudo (registros de eventos do sistema).
 {: .prompt-info }
 
-## 💻 Exemplos Práticos (Níveis)
+## Exemplos Práticos (Níveis)
 
 ### 1. Junior (Exploração)
 
@@ -106,7 +106,7 @@ ls -F /
 # Dica: As barras (/) indicam diretórios, @ indica links.
 ```
 
-### 2. 🧑Pleno (Investigação)
+### 2. Pleno (Investigação)
 
 Descobrir onde exatamente um comando está "morando":
 
