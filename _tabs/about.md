@@ -159,7 +159,7 @@ Foco em ambientes Linux estáveis, seguros, otimizados e construídos para alta 
 
 **Pronto para simplificar sua TI?**
 
-**Contato:** ddpp (arroba) protonmail.com
+**Contato:** simlinuxlab [arroba] protonmail [ponto] com
 
 ## Chave PGP Pública (Comunicação Criptografada)
 
