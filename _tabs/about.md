@@ -182,4 +182,5 @@ j0k4g6h6l7m8n9n/q/r/t/v/x/y/z/A3p1oQk7yK6wFvN/4m/k+g6w0R2gGvH9n/
 ```
 
 ---
+
 *Disclaimer: Avaliações de segurança exigem autorização formal do cliente. Os preços são indicativos e não contratuais.*
