@@ -12,7 +12,7 @@ image:
   alt: Logo do tema Chirpy
 ---
 
-## 🚀 O Conceito (Cloud-Native)
+## 🚀 Conceito (Cloud-Native)
 
 Por que instalar Ruby, Gemfiles e dependências na sua máquina se o **GitHub** pode fazer tudo isso por você?
 
@@ -26,7 +26,7 @@ Este método usa a abordagem **"Cloud-Native"**: editamos o código no navegador
 
 ---
 
-## ✅ Etapa 1: Clonar o Template (O Fork)
+## Etapa 1: Clonar o Template (O Fork)
 
 Não comece do zero. Vamos usar o "esqueleto" oficial do Chirpy.
 
@@ -40,7 +40,7 @@ Não comece do zero. Vamos usar o "esqueleto" oficial do Chirpy.
 
 ---
 
-## ⚙️ Etapa 2: A Configuração Vital (`_config.yml`)
+## Etapa 2: A Configuração Vital (`_config.yml`)
 
 Agora que o repositório é seu, precisamos colocar o seu nome na porta.
 
@@ -75,7 +75,7 @@ github:
 
 ---
 
-## 🏗️ Etapa 3: O Primeiro Deploy (A Mágica)
+## Etapa 3: O Primeiro Deploy (A Mágica)
 
 Assim que você fez o commit acima, o GitHub detectou a mudança e iniciou um "Robô" (Action) para construir o site.
 
@@ -88,7 +88,7 @@ Assim que você fez o commit acima, o GitHub detectou a mudança e iniciou um "R
 
 ---
 
-## 📡 Etapa 4: Ativar o Site (Settings)
+## Etapa 4: Ativar o Site (Settings)
 
 O GitHub precisa saber qual pasta mostrar para o mundo.
 
@@ -100,7 +100,7 @@ O GitHub precisa saber qual pasta mostrar para o mundo.
 
 ---
 
-## 🎉 Etapa 5: Acessar
+## Etapa 5: Acessar
 
 Aguarde cerca de 1 a 2 minutos. Atualize a página e você verá o link no topo:
 
@@ -110,5 +110,5 @@ Aguarde cerca de 1 a 2 minutos. Atualize a página e você verá o link no topo:
 
 ---
 
-## 📝 Próximos Passos
+## Próximos Passos
 Para criar novos posts, basta ir na pasta `_posts` e criar arquivos seguindo o padrão `ANO-MES-DIA-titulo.md`.
