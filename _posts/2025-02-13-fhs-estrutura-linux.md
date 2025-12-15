@@ -10,7 +10,7 @@ math: false
 mermaid: false
 ---
 
-## 🚀 Resumo Rápido (TL;DR)
+## Resumo Rápido (TL;DR)
 
 O Linux não "joga" arquivos em qualquer lugar. O **FHS (Filesystem Hierarchy Standard)** é a "Constituição" que define onde cada arquivo deve morar.
 
@@ -19,7 +19,7 @@ O Linux não "joga" arquivos em qualquer lugar. O **FHS (Filesystem Hierarchy St
 > * **Automação:** Seus scripts Ansible/Bash vão quebrar se você não seguir esse padrão.
 {: .prompt-tip }
 
-## 🧠 Explicação Técnica
+## Explicação Técnica
 
 *Baseado no standard FHS 3.0 e materiais RHCSA.*
 
@@ -27,25 +27,25 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 ### Os Diretórios Críticos
 
-`/bin`
+`/bin`{: .filepath}.
 : Comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
 
-`/sbin`
+`/sbin`{: .filepath}.
 : Binários de **S**istema. Comandos que alteram o sistema e geralmente exigem root (ex: `iptables`, `fdisk`, `reboot`).
 
-`/etc`
+`/etc`{: .filepath}.
 : (Etcetera/Editable Text Configurations). O coração da configuração. Aqui vivem os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
 
-`/var`
+`/var`{: .filepath}.
 : (Variable). Arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
 
-`/tmp`
+`/tmp`{: .filepath}.
 : (Temporary). O "Velho Oeste". Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
 
-`/usr`
-: (Unix System Resources). Onde moram os programas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows).
+### `/usr`
+(Unix System Resources). Onde moram os programas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows).
 
-## 💡 Analogia: O Prédio Corporativo
+## Analogia: O Prédio Corporativo
 
 > * **`/` (Root):** A portaria principal.
 > * **`/home`:** As mesas dos funcionários.
@@ -56,7 +56,7 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 ## 💻 Exemplos Práticos (Níveis)
 
-### 1. 👶 Junior (Exploração)
+### 1. Junior (Exploração)
 
 Listar os diretórios para ver a estrutura:
 
@@ -65,7 +65,7 @@ ls -F /
 # Dica: As barras (/) indicam diretórios, @ indica links.
 ```
 
-### 2. 🧑‍💻 Pleno (Investigação)
+### 2. 🧑Pleno (Investigação)
 
 Descobrir onde exatamente um comando está "morando":
 
@@ -75,7 +75,7 @@ type -a useradd
 # 'useradd' geralmente fica em /sbin porque é administrativo.
 ```
 
-### 3. 🧓 Senior (Auditando com Script)
+### 3. Senior (Auditando com Script)
 
 Um "one-liner" para encontrar arquivos grandes "perdidos" em `/var` que podem estar lotando o disco:
 
@@ -85,7 +85,7 @@ sudo find /var -type f -size +100M -exec ls -lh {} \; | awk '{ print $9 ": " $5 
 ```
 {: file='audit_var.sh'}
 
-## 🛡️ Olhar de Segurança (O Diferencial)
+## Olhar de Segurança (O Diferencial)
 
 ### Risco Crítico: `/tmp`
 Como o `/tmp`{: .filepath} permite que qualquer um escreva (permissão 777), hackers adoram jogar scripts de ataque lá e executá-los.
@@ -97,7 +97,7 @@ Em servidores de produção, montamos a partição `/tmp`{: .filepath} com a fla
 > Se um atacante colocar um arquivo chamado `ls` na pasta `/tmp` e conseguir manipular seu PATH, você pode rodar o vírus dele achando que é o comando listar.
 {: .prompt-danger }
 
-## ⚠️ Troubleshooting (Erros Comuns)
+## Troubleshooting (Erros Comuns)
 
 **Erro:** `bash: ifconfig: command not found`
 
@@ -111,7 +111,7 @@ Em servidores de produção, montamos a partição `/tmp`{: .filepath} com a fla
 sudo ifconfig
 ```
 
-## 📝 Nota SimLinux (Dica de Ouro)
+## Nota SimLinux (Dica de Ouro)
 
 Quer saber a função oficial de qualquer pasta sem abrir o PDF? Digite no terminal:
 
