@@ -27,20 +27,15 @@ O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é
 
 ### Os Diretórios Críticos
 
-`/bin`{: .filepath}.
-: Comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
+- `/bin`{: .filepath}. Comandos essenciais que *qualquer usuário* pode rodar (ex: `ls`, `cp`, `cat`).
 
-`/sbin`{: .filepath}.
-: Binários de **S**istema. Comandos que alteram o sistema e geralmente exigem root (ex: `iptables`, `fdisk`, `reboot`).
+- `/sbin`{: .filepath}. Binários de **S**istema. Comandos que alteram o sistema e geralmente exigem root (ex: `iptables`, `fdisk`, `reboot`).
 
-`/etc`{: .filepath}.
-: (Etcetera/Editable Text Configurations). O coração da configuração. Aqui vivem os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
+- `/etc`{: .filepath}. (Etcetera/Editable Text Configurations). O coração da configuração. Aqui vivem os arquivos `.conf`. **Regra de Ouro:** Nunca coloque binários aqui.
 
-`/var`{: .filepath}.
-: (Variable). Arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
+- `/var`{: .filepath}. (Variable). Arquivos que crescem dinamicamente: Logs (`/var/log`), Sites (`/var/www`), Banco de Dados (`/var/lib/mysql`).
 
-`/tmp`{: .filepath}.
-: (Temporary). O "Velho Oeste". Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
+- `/tmp`{: .filepath}. (Temporary). O "Velho Oeste". Qualquer um pode escrever aqui. É limpo a cada reboot (geralmente).
 
 ## /usr
 (Unix System Resources). Onde moram os programas instalados pelos gerenciadores de pacotes (como o `Program Files` do Windows).
