@@ -87,12 +87,11 @@ Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS)
 * Aspecto de Segurança: As permissões aqui são cruciais, garantindo que um usuário não possa ler ou modificar os arquivos de outro.
 
 ### Analogia: O Prédio Corporativo
-
-* **/ (Root):** A portaria principal.
-* **/home:** As mesas (estações de trabalho) dos funcionários.
-* **/etc:** A sala de elétrica/fiação. Se mexer errado aqui, o prédio apaga (configurações críticas).
-* **/tmp:** O quadro de avisos público. Todo mundo pode jogar coisas lá (arquivos temporários).
-* **/var/log:** As câmeras de segurança gravando tudo (registros de eventos do sistema).
+> * **/ (Root):** A portaria principal.
+> * **/home:** As mesas (estações de trabalho) dos funcionários.
+> * **/etc:** A sala de elétrica/fiação. Se mexer errado aqui, o prédio apaga (configurações críticas).
+> * **/tmp:** O quadro de avisos público. Todo mundo pode jogar coisas lá (arquivos temporários).
+> * **/var/log:** As câmeras de segurança gravando tudo (registros de eventos do sistema).
 {: .prompt-info }
 
 ## Exemplos Práticos (Níveis)
