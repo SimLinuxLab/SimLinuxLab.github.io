@@ -45,7 +45,7 @@ Não comece do zero. Vamos usar o "esqueleto" oficial do Chirpy.
 Agora que o repositório é seu, precisamos colocar o seu nome na porta.
 
 1.  No seu novo repositório, abra o arquivo `_config.yml`.
-2.  Clique no ícone de lápis (✏️) para editar.
+2.  Clique no ícone de (lápis) para editar.
 3.  Altere **apenas** as linhas abaixo:
 
 ```yaml
@@ -80,10 +80,10 @@ github:
 Assim que você fez o commit acima, o GitHub detectou a mudança e iniciou um "Robô" (Action) para construir o site.
 
 1.  Clique na aba **Actions** no topo do repositório.
-2.  Você verá um processo rodando (amarelo 🟡 ou verde 🟢).
+2.  Você verá um processo rodando (amarelo ou verde).
 3.  Aguarde ficar **Verde**. Isso significa que o site foi construído e uma nova branch chamada `gh-pages` foi criada.
 
-> **Atenção:** Se der erro (vermelho 🔴), geralmente é porque você escreveu algo errado no `_config.yml` (como dois pontos sem espaço).
+> **Atenção:** Se der erro (vermelho), geralmente é porque você escreveu algo errado no `_config.yml` (como dois pontos sem espaço).
 {: .prompt-warning }
 
 ---
