@@ -12,7 +12,7 @@ pin: true
   # alt: Logo do tema Chirpy
 ---
 
-## 🚀 Conceito (Cloud-Native)
+## Conceito (Cloud-Native)
 
 Por que instalar Ruby, Gemfiles e dependências na sua máquina se o **GitHub** pode fazer tudo isso por você?
 

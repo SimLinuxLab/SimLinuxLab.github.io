@@ -10,7 +10,7 @@ math: false
 mermaid: false
 ---
 
-## 🚀 Resumo Rápido (TL;DR)
+## Resumo Rápido (TL;DR)
 
 No Linux, **tudo** é arquivo e todo arquivo tem um "dono" e um conjunto de regras.
 Existem apenas 3 tipos de permissões básicas:
@@ -27,7 +27,7 @@ Existem apenas 3 tipos de permissões básicas:
 
 ---
 
-## 🧠 Explicação Técnica
+## Explicação Técnica
 
 *Baseado nos manuais LPIC-1 e Red Hat RHCSA.*
 
@@ -51,7 +51,7 @@ Quando você digita `ls -l`, vê algo como `-rwxr-xr--`. Isso divide-se em 3 tri
 
 ---
 
-## 💡 Analogia: A Sua Casa
+## Analogia: A Sua Casa
 
 * **User (Dono):** Você. Tem a chave mestra, entra em qualquer quarto.
 * **Group (Grupo):** Sua família. Pode entrar na sala e cozinha, mas talvez não no seu escritório.
@@ -59,9 +59,9 @@ Quando você digita `ls -l`, vê algo como `-rwxr-xr--`. Isso divide-se em 3 tri
 
 ---
 
-## 💻 Exemplos Práticos (Níveis)
+## Exemplos Práticos (Níveis)
 
-### 1. 👶 Junior (Simbólico)
+### 1. Junior (Simbólico)
 Tornar um script executável para você (dono):
 
 ```bash
@@ -70,7 +70,7 @@ chmod u+x script.sh
 # Agora ficou verde no terminal!
 ```
 
-### 2. 🧑‍💻 Pleno (Numérico & Dono)
+### 2. Pleno (Numérico & Dono)
 Configurar um servidor web onde o dono faz tudo, o grupo lê, e os estranhos não veem nada:
 
 ```bash
@@ -81,7 +81,7 @@ sudo chown renato:devs index.html
 chmod 740 index.html
 ```
 
-### 3. 🧓 Senior (Bulk Fix)
+### 3. Senior (Bulk Fix)
 Você copiou arquivos de um backup e as permissões vieram erradas (tudo executável). Vamos arrumar tudo de uma vez sem quebrar os diretórios:
 
 ```bash
@@ -94,7 +94,7 @@ find /var/www/html -type f -exec chmod 644 {} \;
 
 ---
 
-## 🛡️ Olhar de Segurança (O Diferencial)
+## Olhar de Segurança (O Diferencial)
 
 ### O Pecado do `chmod 777`
 Nunca, jamais use `chmod 777` para "resolver um erro de permissão".
@@ -106,7 +106,7 @@ O **1** na frente é o Sticky Bit. Ele diz: *"Todo mundo pode escrever aqui, mas
 
 ---
 
-## ⚠️ Troubleshooting (Erros Comuns)
+## Troubleshooting (Erros Comuns)
 
 **Erro:** `bash: ./script.sh: Permission denied`
 **Causa:** Faltou o `+x` (bit de execução).
@@ -116,7 +116,7 @@ O **1** na frente é o Sticky Bit. Ele diz: *"Todo mundo pode escrever aqui, mas
 **Causa:** Apenas o **root** pode dar arquivos de presente para outros usuários.
 **Solução:** Use `sudo`.
 
-## 📝 Nota SimLinux (Dica de Ouro)
+## Nota SimLinux (Dica de Ouro)
 Quer copiar as permissões de um arquivo bom para um novo, sem ter que lembrar os números? Use o `--reference`:
 
 ```bash
