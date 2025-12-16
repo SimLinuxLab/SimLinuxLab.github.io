@@ -19,11 +19,15 @@ O Linux não "joga" arquivos em qualquer lugar. O **FHS (Filesystem Hierarchy St
 > * **Automação:** Seus scripts Ansible/Bash vão quebrar se você não seguir esse padrão.
 {: .prompt-tip }
 
+---
+
 ## Explicação Técnica
 
 *Baseado no standard FHS 3.0 e materiais RHCSA.*
 
 O diretório raiz `/` (root) é o pai de tudo. Não existe `C:` ou `D:`. Tudo é um arquivo ou diretório pendurado na raiz.
+
+---
 
 ## Os Diretórios Críticos
 
@@ -86,6 +90,8 @@ Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS)
 * Importância: Armazena arquivos, documentos e todas as configurações específicas de cada usuário (os chamados "dotfiles", como `.bashrc` ou `.vimrc`).
 * Aspecto de Segurança: As permissões aqui são cruciais, garantindo que um usuário não possa ler ou modificar os arquivos de outro.
 
+---
+
 ### Analogia: O Prédio Corporativo
 > * **/ (Root):** A portaria principal.
 > * **/home:** As mesas (estações de trabalho) dos funcionários.
@@ -93,6 +99,8 @@ Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS)
 > * **/tmp:** O quadro de avisos público. Todo mundo pode jogar coisas lá (arquivos temporários).
 > * **/var/log:** As câmeras de segurança gravando tudo (registros de eventos do sistema).
 {: .prompt-info }
+
+---
 
 ## Exemplos Práticos (Níveis)
 
@@ -125,6 +133,8 @@ sudo find /var -type f -size +100M -exec ls -lh {} \; | awk '{ print $9 ": " $5 
 ```
 {: file='audit_var.sh'}
 
+---
+
 ## Olhar de Segurança (O Diferencial)
 
 ### Risco Crítico: `/tmp`
@@ -136,6 +146,8 @@ Em servidores de produção, montamos a partição `/tmp`{: .filepath} com a fla
 > **Cuidado com o PATH!**
 > Se um atacante colocar um arquivo chamado `ls` na pasta `/tmp` e conseguir manipular seu PATH, você pode rodar o vírus dele achando que é o comando listar.
 {: .prompt-danger }
+
+---
 
 ## Troubleshooting (Erros Comuns)
 
@@ -150,6 +162,7 @@ Em servidores de produção, montamos a partição `/tmp`{: .filepath} com a fla
 # ou
 sudo ifconfig
 ```
+---
 
 ## Nota SimLinux (Dica de Ouro)
 
