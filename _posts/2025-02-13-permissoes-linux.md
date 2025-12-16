@@ -25,6 +25,8 @@ Existem apenas 3 tipos de permissões básicas:
 > * **0** = Nenhuma permissão
 {: .prompt-info }
 
+---
+
 ## 🧠 Explicação Técnica
 
 *Baseado nos manuais LPIC-1 e Red Hat RHCSA.*
@@ -34,6 +36,8 @@ Quando você digita `ls -l`, vê algo como `-rwxr-xr--`. Isso divide-se em 3 tri
 1.  **Dono (User/u):** O criador do arquivo.
 2.  **Grupo (Group/g):** A equipa do dono.
 3.  **Outros (Others/o):** O resto do mundo.
+
+---
 
 ### A Tabela da Verdade (Modo Octal)
 
@@ -45,11 +49,15 @@ Quando você digita `ls -l`, vê algo como `-rwxr-xr--`. Isso divide-se em 3 tri
 | **4** | 100 | `r--` | Só leitura (ReadOnly) |
 | **0** | 000 | `---` | Bloqueio total |
 
+---
+
 ## 💡 Analogia: A Sua Casa
 
 * **User (Dono):** Você. Tem a chave mestra, entra em qualquer quarto.
 * **Group (Grupo):** Sua família. Pode entrar na sala e cozinha, mas talvez não no seu escritório.
 * **Others (Outros):** O carteiro ou visitantes. Só podem entrar até o portão (leitura), não podem dormir lá (escrita).
+
+---
 
 ## 💻 Exemplos Práticos (Níveis)
 
@@ -84,6 +92,8 @@ find /var/www/html -type d -exec chmod 755 {} \;
 find /var/www/html -type f -exec chmod 644 {} \;
 ```
 
+---
+
 ## 🛡️ Olhar de Segurança (O Diferencial)
 
 ### O Pecado do `chmod 777`
@@ -93,6 +103,8 @@ Nunca, jamais use `chmod 777` para "resolver um erro de permissão".
 ### O "Sticky Bit" (O Guardião do /tmp)
 Lembra do `/tmp`? Ele tem permissão `1777`.
 O **1** na frente é o Sticky Bit. Ele diz: *"Todo mundo pode escrever aqui, mas **só o dono** pode apagar o seu próprio arquivo."*
+
+---
 
 ## ⚠️ Troubleshooting (Erros Comuns)
 
