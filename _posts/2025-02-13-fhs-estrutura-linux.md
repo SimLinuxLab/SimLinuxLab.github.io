@@ -93,7 +93,7 @@ Visão geral dos diretórios fundamentais do Filesystem Hierarchy Standard (FHS)
 ---
 
 ### Analogia: O Prédio Corporativo
-> * **/ (Root):** A portaria principal.
+> * **/root:** A portaria principal.
 > * **/home:** As mesas (estações de trabalho) dos funcionários.
 > * **/etc:** A sala de elétrica/fiação. Se mexer errado aqui, o prédio apaga (configurações críticas).
 > * **/tmp:** O quadro de avisos público. Todo mundo pode jogar coisas lá (arquivos temporários).
