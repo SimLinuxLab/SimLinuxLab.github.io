@@ -11,7 +11,7 @@ timezone: America/Sao_Paulo
 
 # jekyll-seo-tag settings
 title: SimLinuxLab
-tagline: Laboratório de estudos em Linux, Git e DevOps
+tagline: Linux, DevSecOps e Lab
 description: >-
   Documentação, estudos e experimentos práticos sobre Linux, Git, servidores e automação.
 url: "https://simlinuxlab.github.io"
