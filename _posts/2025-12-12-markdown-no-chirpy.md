@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Post de Teste Completo – Markdown no Chirpy"
+title: "Markdown no Chirpy"
 date: 2025-12-12 10:00:00 +0000
 author: SimLinux
 categories: [Web Dev,Chirpy]
