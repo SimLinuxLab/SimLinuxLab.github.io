@@ -1,10 +1,13 @@
-<div id="jekyll-metadata">
-  <p class="mb-0">
-    {{ site.data.label.footer.powered_by }} <a href="https://jekyllrb.com" class="text-muted">Jekyll</a>
-    {% if site.theme_mode and site.theme_mode == 'just-the-docs' %}
-      {{ site.data.label.footer.theme_by }} <a href="https://github.com/just-the-docs/just-the-docs" class="text-muted">Just the Docs</a>
-    {% else %}
-      {{ site.data.label.footer.using_theme }} <a href="https://github.com/cotes2020/jekyll-theme-chirpy" class="text-muted">Chirpy</a>
-    {% endif %}
-  </p>
-</div>
+<hr>
+<footer>
+  {% include snippets/links.html %}
+
+  <div class="d-flex justify-content-between align-items-center">
+    {% include footer/theme-copyright.html %}
+    <div id="jekyll-metadata">
+        <p class="mb-0">
+            Copyright &copy; 2025 - SimLinuxLab TESTE
+        </p>
+    </div>
+  </div>
+</footer>
