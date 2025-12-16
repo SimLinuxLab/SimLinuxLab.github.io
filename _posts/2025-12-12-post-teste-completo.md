@@ -11,7 +11,7 @@ Este post serve como **demonstração prática** de tudo que pode ser usado no t
 
 ---
 
-## 🔠 TÍTULOS
+## TÍTULOS
 
 # Título H1
 ## Título H2
@@ -22,7 +22,7 @@ Este post serve como **demonstração prática** de tudo que pode ser usado no t
 
 ---
 
-## ✍️ FORMATAÇÃO DE TEXTO
+## FORMATAÇÃO DE TEXTO
 
 - **Negrito**
 - *Itálico*
@@ -32,7 +32,7 @@ Este post serve como **demonstração prática** de tudo que pode ser usado no t
 
 ---
 
-## 📋 LISTAS
+## LISTAS
 
 ### Lista ordenada:
 1. Item 1
@@ -46,14 +46,14 @@ Este post serve como **demonstração prática** de tudo que pode ser usado no t
 
 ---
 
-## 💬 CITAÇÃO
+## CITAÇÃO
 
 > “A mente que se abre a uma nova ideia jamais volta ao seu tamanho original.”  
 > — Albert Einstein
 
 ---
 
-## 📊 TABELA
+## TABELA
 
 | Comando     | Descrição                     |
 |-------------|-------------------------------|
@@ -63,7 +63,7 @@ Este post serve como **demonstração prática** de tudo que pode ser usado no t
 
 ---
 
-## 💻 BLOCO DE CÓDIGO COM BOTÃO DE COPIAR
+## BLOCO DE CÓDIGO COM BOTÃO DE COPIAR
 
 ```bash
 # Atualizar sistema no Ubuntu
