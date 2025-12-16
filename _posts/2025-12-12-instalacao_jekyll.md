@@ -7,9 +7,9 @@ date: 2025-02-14 15:00:00 -0300
 categories: [Web Dev,Jekyll,Chirpy]
 tags: [jekyll, github-pages, chirpy, cloud-native]
 pin: true
-image:
-  path: https://chirpy-img.netlify.app/commons/devices-mockup.png
-  alt: Logo do tema Chirpy
+# image:
+  # path: https://chirpy-img.netlify.app/commons/devices-mockup.png
+  # alt: Logo do tema Chirpy
 ---
 
 ## 🚀 Conceito (Cloud-Native)
