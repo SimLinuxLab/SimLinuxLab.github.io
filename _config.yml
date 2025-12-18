@@ -125,7 +125,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: true
+      comments: false # true ou false, para comentários ligados ou desligado por padrão
       toc: true
       permalink: /posts/:title/
   - scope:
