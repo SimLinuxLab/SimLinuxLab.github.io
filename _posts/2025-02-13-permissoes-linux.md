@@ -8,7 +8,7 @@ tags: [chmod, chown, permissoes, security]
 pin: false
 math: false
 mermaid: false
-comments: false # Se true, libera a seção de comentários no post 
+comments: false # Se true, libera a seção de comentários no post. 
 ---
 
 ## Resumo Rápido (TL;DR)
