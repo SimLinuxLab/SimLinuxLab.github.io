@@ -8,7 +8,7 @@ tags: [fhs, lpi, rhcsa, hardening]
 pin: true
 math: false
 mermaid: false
-comments: true # Se true, libera a seção de comentários no post
+comments: true # Se true, libera a seção de comentários no post 
 ---
 
 ## Resumo Rápido (TL;DR)
