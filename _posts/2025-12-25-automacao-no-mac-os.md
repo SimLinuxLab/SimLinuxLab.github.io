@@ -2,7 +2,7 @@
 layout: post
 title: "Automação no macOS: Script para Gerenciar Perfis do Brave"
 author: SimLinux
-date: 2025-12-25 18:00:00 -0300
+date: 2025-12-25 06:00:00 -0300
 categories: [Shell Script, macOS, Automação]
 tags: [bash, terminal, brave, produtividade]
 ---
