@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Automação no macOS: Script para Gerenciar Perfis do Brave"
+author: SimLinux
+date: 2025-12-25 18:00:00 -0300
+categories: [Shell Script, macOS, Automação]
+tags: [bash, terminal, brave, produtividade]
+---
+
+<p>Hoje no <strong>SimLinuxLab</strong>, resolvi um desafio de produtividade: gerenciar múltiplos perfis de navegador via linha de comando.</p>
+
+<p>Quem trabalha com TI, Marketing ou Desenvolvimento sabe que misturar contas pessoais, de trabalho e de clientes no mesmo navegador é uma receita para o desastre. A solução foi criar um <strong>Shell Script</strong> em Bash para abrir perfis específicos do Brave Browser instantaneamente.</p>
+
+<h3>O Desafio</h3>
+<p>O macOS tem um comando <code>open</code>, mas ele pode ser um pouco "preguiçoso" ou agressivo demais. Precisávamos de um script que:</p>
+<ul>
+    <li>Abrisse um perfil específico pelo apelido (ex: <code>./brave.sh ia</code>).</li>
+    <li>Focasse na janela se ela já estivesse aberta (sem criar duplicatas).</li>
+    <li>Tivesse um comando "mestre" para abrir todos os 10 perfis de trabalho de uma vez.</li>
+</ul>
+
+<h3>A Solução (O Código)</h3>
+<p>Abaixo está a versão final do script <code>brave.sh</code>. Utilizamos a estrutura <code>case</code> do Bash para mapear apelidos fáceis para os IDs internos dos perfis.</p>
+
+<pre><code class="language-bash">
+#!/bin/bash
+
+# --- Script Mestre para Perfis do Brave no macOS ---
+# SimLinux Lab - 2025
+
+PROFILE_PATH_BASE="$HOME/Library/Application Support/BraveSoftware/Brave-Browser"
+
+# Função para abrir/focar um perfil
+abrir_perfil() {
+  local NOME_PERFIL="$1"
+  local NOME_APELIDO="$2"
+  
+  echo "Abrindo/Focando perfil: $NOME_APELIDO..."
+  
+  # Removemos o flag "-n" para evitar janelas duplicadas
+  open -a "Brave Browser" --args --profile-directory="$NOME_PERFIL" &
+}
+
+# Lógica principal
+case "$1" in
+  "ia")
+    abrir_perfil "Profile 16" "IA"
+    ;;
+  "todos")
+    echo "Abrindo todos os perfis..."
+    abrir_perfil "Profile 16" "IA"
+    sleep 1
+    abrir_perfil "Profile 8" "Bitwarden"
+    # ... outros perfis ...
+    ;;
+  *)
+    echo "Erro: Use um apelido válido (ia, bitwarden, todos...)"
+    exit 1
+    ;;
+esac
+</code></pre>
+
+<h3>Aprendizado do Dia</h3>
+<p>Uma lição importante durante o desenvolvimento foi sobre o comando <code>open</code> do macOS. Inicialmente usamos a flag <code>-n</code> (new instance), mas isso criava janelas infinitas. Ao remover a flag, o sistema passou a gerenciar inteligentemente o foco das janelas.</p>
+
+<hr>
+
+<p><em>Este script agora faz parte da minha rotina diária de inicialização. Quer ver mais automações como essa? Acompanhe a categoria <strong>Shell Script</strong> aqui no blog.</em></p>
